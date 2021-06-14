@@ -1,0 +1,11 @@
+# phpstorm project files
+.idea
+
+/logs
+
+/private/*
+
+/vendor/*
+!/vendor/simple_html_dom.php
+
+client_secret.json

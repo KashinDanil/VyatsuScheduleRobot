@@ -1,0 +1,15 @@
+php_value memory_limit 256M
+# HTID:12383426: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+php_value display_errors 1
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:12383426:
+AddDefaultCharset utf-8
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_URI} ^/api
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
+
+ErrorDocument 404 /error.php
+ErrorDocument 403 /forbidden.php
