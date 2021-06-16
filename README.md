@@ -18,8 +18,8 @@ dbname</li>
 указывать ":", если Вы используете Linux, то этот шаг не обязательный)
 </p>
 <p>
-Создать базу данных со следующей структурой:
-<img alt="Структура базы данных" src="https://sun9-26.userapi.com/impg/72yn6yJzSbFyB6ExAJYJrQBWazUT3Dcc53H3kg/flPmVZKQIzs.jpg?size=650x826&quality=96&sign=2348b284022418b0cbffef97688528cc&type=album" />
+Создать базу данных со следующей структурой:<br>
+<img alt="Структура базы данных" src="https://raw.githubusercontent.com/KashinDanil/VyatsuScheduleRobot/main/images/DB%20Structure.png" />
 </p>
 <p>
 Ну и для уведомлений установить слудющие задачи в cron:
