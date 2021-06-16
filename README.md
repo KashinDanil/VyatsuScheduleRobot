@@ -22,7 +22,7 @@ dbname</li>
 <img alt="Структура базы данных" src="https://raw.githubusercontent.com/KashinDanil/VyatsuScheduleRobot/main/images/DB%20Structure.png" />
 </p>
 <p>
-Ну и для уведомлений установить слудющие задачи в cron:
+Ну и для уведомлений установить слудющие задачи в cron:<br>
 0 7 * * * send-schedule.php?reminder_option=1<br>
 15 8 * * * send-schedule.php?reminder_option=2&time_finish=08:20:00<br>
 55 9 * * * send-schedule.php?reminder_option=2&time_finish=09:50:00<br>
